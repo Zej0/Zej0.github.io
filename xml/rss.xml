@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>CURRENT TOP MODELS</title>
+        <link></link>
+        <description>New top models From Porsche</description>
+        <item>
+            <title>911 Dakar</title>
+            <link></link>
+            <description>The new Porsche 911 Dakar is here</description>
+        </item>
+        <item>
+            <title>GEMERA</title>
+            <link></link>
+            <description>The new Koenisgegg Gemera is here</description>
+        </item>
+        <item>
+            <title>JESKO ABSOLUT</title>
+            <link></link>
+            <description>The new Koenisgegg Jesko Absolut is here</description>
+        </item>
+        <item>
+            <title>JESKO ATTACK</title>
+            <link></link>
+            <description>The new Koenisgegg Jesko Attack is here</description>
+        </item>
+    </channel>
+</rss>
