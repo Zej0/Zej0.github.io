@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Porsche</title>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" type="image/png" href="images/Icon.png">
+        <link rel="stylesheet" href="css/style.css">
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
+        <!--Icons-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="https://kit.fontawesome.com/9343e2a586.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="beginning"></div>
+        <!--Navigation-->
+        <div id="holder">
+        <header>
+            <div id="nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html"><img src="images/Logo.png"/></a>
+                        </li>
+                    </ul>
+                            <ul id="navigacija">
+                                <li><a href="index.html" class="navItem">Home</a></li>
+                                <li><a href="About.html" class="navItem">About</a></li>
+                                <li><a href="Gallery.html" class="navItem">Gallery</a></li>
+                                <li><a href="#beginning" id="selected">Contact</a></li>
+                            </ul>
+                </nav>
+                <div class="cleaner"></div>
+            </div>
+        </header>
+        <!--Info-->
+        <div id="Info">
+            <div class="InfoContent" id="Map">
+                <h1>Where you can find us</h1>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.7660052569195!2d20.411595112224663!3d44.7855755783398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6fc590bfffff%3A0x960eddba5f8e01bb!2sPorsche%20Beograd%20Ada!5e0!3m2!1sen!2srs!4v1701448646554!5m2!1sen!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="InfoContent">
+                <h1 class="MainTextHead">Contact us</h1>      
+                <form target="_blank" action="" method="post">
+                    <input type="text" class="InputArea" id="ime" name="ime" placeholder="First Name" required><br>
+                    <input type="text" class="InputArea" id="prezime" name="prezime" placeholder="Last Name" required><br>
+                    <input type="email" class="InputArea" id="mail" name="mail" placeholder="E-mail" required><br>      
+                    <input type="text" class="InputArea" id="number" name="number" placeholder="Phone" required><br/>           
+                    <label class="InputText"><b>Ask a question:</b></label><br/>
+                    <textarea id="Desc" class="TextrArea" name="Napomena" placeholder="Ask a Question"></textarea>                
+                    <div id="Buttons">
+                        <button id="ButtonSubmit" class="Button" type="submit">Submit</button>
+                        <button class="Button" type="reset">Cancel</button>
+                    </div>
+                </form>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+        <!--Footer-->
+        <footer class="Footer">
+            <img src="images/Logo.png" alt="LogoImage" class="FooterLogo" align="center">
+        <div class="FooterContent">
+                <section class="FooterSection">
+                    <h3 class="FooterHeader" id="eksterni"><span class="material-symbols-outlined">link</span> Eksterni Linkovi</h3>
+                        <ul class="FooterList">
+                            <li class="FooterItem">
+                               <a href="https://www.porsche.com/international/" class="FooterLink"><span class="material-symbols-outlined">local_shipping</span> Porsche Cars</a>
+                            </li>
+                            <li class="FooterItem">
+                                <a href="https://www.porsche.com/international/motorsportandevents/experience/" class="FooterLink"><span class="material-symbols-outlined">groups</span> Porsche Experience</a>
+                            </li>
+                        </ul>
+                </section>	
+                <!--Footer-->
+                <section class="FooterSection">
+                    <h3 class="FooterHeader"><span class="material-symbols-outlined">support_agent</span> Contact Us</h3>
+                       <ul class="FooterList">
+                           <li class="FooterItem">
+                              <a href="tel:+381-061-242-0174" class="FooterLink"><span class="material-symbols-outlined">call</span><i>+381 061 242 0174</i></a>
+                           </li>
+                           <li class="FooterItem">
+                               <a href="mailto:ivan.zejnula.41.23@ict.edu.rs"><span class="material-symbols-outlined">mail</span><i>ivan.zejnula.41.23@ict.edu.rs</i></a>
+                           </li>
+                       </ul>
+                </section>
+                <!--Social Icons-->
+                <section class="FooterSection">
+                    <h3 class="FooterHeader"><span class="material-symbols-outlined">share</span>Socials</h3>
+                       <ul class="FooterList">
+                           <li class="FooterItem">
+                               <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                               <a href="https://www.instagram.com/_zej0/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                               <a href="https://www.x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                               <a href="xml/sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a>
+                               <a href="xml/rss.xml" target="_blank"><i class="fa-solid fa-rss"></i></a>
+                           </li>
+                       </ul>
+                    </div>
+                </section>
+                <p class="Copyright">&copy; Copyright Ivan Zejnula 41/23 2023</p>
+    </footer>
+    </div>
+    </body>
+</html>
